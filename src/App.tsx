@@ -1,7 +1,10 @@
 //import { useEffect, useState } from "react";
 //import { db } from './database/firebase-config';
 //import { collection, getDocs } from 'firebase/firestore';
-import './global.css'
+import { Header } from './components/Header';
+
+import 'antd/dist/antd.css';
+import './global.css';
 
 
 function App() {
@@ -19,7 +22,7 @@ function App() {
 //  }, [])
 
   return (
-    <h1>Hello world!</h1>
+   <Header />
   )
 }
 
