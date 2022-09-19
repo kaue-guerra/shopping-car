@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "antd": "^4.22.6",
+    "antd-img-crop": "^4.2.4",
     "firebase": "^9.9.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
